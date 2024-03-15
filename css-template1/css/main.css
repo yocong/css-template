@@ -67,7 +67,7 @@ header .inner-header .tnb li:nth-child(2) i {
 
 header .inner-header .tnb li:last-child a {
   border: 1px solid #fff;
-  padding: 5px;
+  padding: 5px 15px;
   border-radius: 30px;
 }
 
