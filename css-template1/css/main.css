@@ -228,3 +228,63 @@ section.about ul.sub-container li .text .more::before {
   left: 0;
   top: -7px;
 }
+
+section .sub-container {
+  border: 3px solid red;
+  position: relative;
+}
+/* innovation.about style */
+section .sub-container .img-box {
+  /* overflow: hidden; */
+}
+section .sub-container .img-box img {
+  margin-top: 50px;
+  width: 100%;
+  /* border: 3px solid #000; */
+}
+section .sub-container .inner {
+  background: #fff;
+  width: 80%;
+  height: 150px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .sub-container .inner .en {
+  padding: 18px 18px 18px 30px;
+  border-bottom: 1px solid #000;
+  font-size: 1.2em;
+  text-wrap: 700;
+}
+section .sub-container .inner .bottom {
+  background: #123456;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+section .sub-container .inner .bottom p {
+  /* border: 1px solid yellow; */
+  padding: 30px 30px 30px 50px;
+  float: left;
+  width: 70%;
+}
+section .sub-container .inner .bottom a {
+  background-color: #ff8342;
+  float: left;
+  top: 40px;
+  left: 30px;
+  width: 20%;
+  border-radius: 40px;
+  position: relative;
+}
+
+section .sub-container .inner .bottom a::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 30px;
+  position: absolute;
+}
