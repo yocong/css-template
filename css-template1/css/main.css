@@ -1,1 +1,44 @@
 @import url("common.css");
+
+/* header style */
+header {
+  background: aqua;
+  height: 100px;
+  line-height: 100px;
+}
+header .inner-header {
+  /* border: 3px solid tomato; */
+  width: 84%;
+  margin: 0 auto;
+}
+
+header .inner-header .logo {
+  /* border: 3px solid violet; */
+  float: left;
+  /* 이미지가 들어갈 사진액자 크기조절 */
+  width: 200px;
+}
+header .inner-header .logo img {
+  /* 사진액자에 맞게 100% */
+  width: 100%;
+}
+
+header .inner-header .gnb {
+  /* border: 3px solid red; */
+  float: left;
+  margin-left: 80px;
+}
+header .inner-header .gnb li {
+  /* border: 3px dashed yellow; */
+  float: left;
+  margin-right: 80px;
+}
+
+header .inner-header .tnb {
+  /* border: 3px solid blue; */
+  float: right;
+}
+header .inner-header .tnb li {
+  float: left;
+  margin-right: 25px;
+}
