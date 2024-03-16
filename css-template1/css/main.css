@@ -228,3 +228,243 @@ section.about ul.sub-container li .text .more::before {
   left: 0;
   top: -7px;
 }
+
+section .sub-container {
+  /* border: 3px solid red; */
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* innovation.about style */
+section .sub-container .img-box img {
+  margin-top: 50px;
+  width: 100%;
+  /* border: 3px solid #000; */
+}
+section .sub-container .inner {
+  background: #fff;
+  width: 80%;
+  height: 150px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .sub-container .inner .en {
+  padding: 18px 18px 18px 30px;
+  border-bottom: 1px solid #000;
+  font-size: 1.2em;
+  text-wrap: 700;
+}
+section .sub-container .inner .bottom {
+  background: #123456;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+section .sub-container .inner .bottom p {
+  /* border: 1px solid yellow; */
+  padding: 30px 30px 30px 50px;
+  float: left;
+  width: 70%;
+}
+section .sub-container .inner .bottom a {
+  background-color: #ff8342;
+  float: left;
+  top: 40px;
+  left: 30px;
+  width: 20%;
+  border-radius: 40px;
+  position: relative;
+}
+
+section .sub-container .inner .bottom a::before {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 30px;
+  position: absolute;
+}
+
+/* me.about style */
+section.me {
+  background: url("../img/me.jpg") no-repeat center/cover fixed;
+  height: 100vh;
+}
+section.me .title {
+  padding-bottom: 50px;
+}
+section.me .sub-container {
+  border-top: 2px solid #123456;
+  border-bottom: 2px solid #000;
+}
+
+section.me .sub-container > li:nth-child(2) {
+  margin-bottom: 40px;
+}
+
+section.me .sub-container li h3 {
+  /* border: 1px solid #000; */
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+section.me .sub-container li:nth-child(2) h3 {
+  margin-top: 30px;
+  border-top: 2px solid lightgray;
+}
+
+section.me .sub-container li span i {
+  padding-right: 10px;
+  color: orange;
+}
+/* 첫 번째 li의 p */
+section.me .sub-container > li:first-child p {
+  padding: 15px 15px 15px 30px;
+  line-height: 20px;
+}
+/* 두 번째 li의 p */
+section.me .sub-container > li:nth-child(2) > p {
+  padding: 15px 15px 15px 30px;
+}
+section.me .sub-container li:first-child a {
+  padding-left: 30px;
+  font-weight: 700;
+}
+section.me .sub-container li:nth-child(2) a:last-child {
+  padding-left: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+section.me .sub-container .in {
+  line-height: 40px;
+}
+section.me .sub-container .in p {
+  /* border: 1px solid blue; */
+  float: left;
+  padding-left: 40px;
+  width: 80%;
+  position: relative;
+}
+section.me .sub-container .in em {
+  /* border: 1px solid red; */
+  padding-left: 30px;
+  font-weight: 700;
+  float: left;
+  width: 12%;
+  position: relative;
+}
+section.me .sub-container .in p::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #ff8342;
+  border-radius: 50%;
+  position: absolute;
+  left: 20px;
+  top: 17px;
+}
+
+section.me #incruit-btn {
+  width: 200px;
+  height: 30px;
+  color: #fff;
+  background: #ff8342;
+  border-radius: 15px;
+  /* margin 쓰려면 block 필요 !! */
+  margin: 0 auto;
+  display: block;
+}
+
+/* sns.about style */
+section.sns .title {
+  margin: 40px 0;
+}
+
+section.sns ul.sub-container {
+  /* border: 1px solid #ddd; */
+}
+
+section.sns ul.sub-container li {
+  float: left;
+  width: 30.6%;
+  margin-right: 2%;
+}
+
+section.sns ul.sub-container li .img-box img {
+  /* 액자에 딱 맞게 */
+  width: 100%;
+  /* hover가 없는 쪽에 ! */
+  transition: 0.6s;
+}
+
+section.sns ul.sub-container li:first-child {
+  margin-left: 2%;
+}
+
+section.sns ul.sub-container .bottom {
+  padding: 25px;
+  width: 100%;
+}
+
+section.sns ul.sub-container .bottom .color {
+  color: orange;
+  padding-bottom: 10px;
+}
+
+section.sns ul.sub-container .bottom > p:nth-child(2) {
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-bottom: 23px;
+}
+section.sns ul.sub-container .bottom .time {
+  color: darkgrey;
+}
+
+section.sns ul.sub-container .bottom .time i {
+  padding-right: 5px;
+}
+
+/* footer.about style */
+footer {
+  border-top: 1px solid darkgray;
+}
+
+/* 사진 액자 */
+footer .inner .ft-logo {
+  float: left;
+  width: 25%;
+  margin-left: 50px;
+}
+/* 이미지 크기 조절 */
+footer .inner .ft-logo img {
+  /* 사진액자에 맞게 100% */
+  width: 100%;
+}
+
+footer .inner .address {
+  float: left;
+  width: 20%;
+  padding-top: 70px;
+  line-height: 25px;
+}
+footer .inner .address li:first-child {
+  font-weight: 700;
+}
+footer .inner .list {
+  /* border: 1px solid red; */
+  float: left;
+  width: 50%;
+}
+
+footer .inner .list li {
+  float: left;
+  padding-top: 74px;
+  padding-left: 60px;
+}
+footer .inner .list li:last-child {
+  font-weight: 700;
+}
