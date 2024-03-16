@@ -236,9 +236,6 @@ section .sub-container {
 }
 
 /* innovation.about style */
-section .sub-container .img-box {
-  /* overflow: hidden; */
-}
 section .sub-container .img-box img {
   margin-top: 50px;
   width: 100%;
